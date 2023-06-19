@@ -44,8 +44,9 @@ def write(coefficient_map: CoefficientMap, output_dir: pathlib.Path, **kwargs):
 
     plt.xlabel("Longitude (°)")
     plt.ylabel("Latitude (°)")
-    plt.axis(kwargs.get("show-axes"))
-    if kwargs.get("show-title"):
+    print(kwargs)
+    plt.axis(kwargs.get("show_axes"))
+    if kwargs.get("show_title"):
         plt.title(coefficient_map.sample_name)
 
     bg_path = os.path.join(met_src.__path__[0], "data", "img", "2k_moon.jpg")
