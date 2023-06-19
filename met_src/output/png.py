@@ -44,7 +44,6 @@ def write(coefficient_map: CoefficientMap, output_dir: pathlib.Path, **kwargs):
 
     plt.xlabel("Longitude (°)")
     plt.ylabel("Latitude (°)")
-    print(kwargs)
     plt.axis(kwargs.get("show_axes"))
     if kwargs.get("show_title"):
         plt.title(coefficient_map.sample_name)
