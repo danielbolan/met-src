@@ -58,7 +58,7 @@ def create_map_layer(coefficient_map: CoefficientMap, data_source: ogr.DataSourc
 def zip_files(output_dir: pathlib.Path, name: str):
     with zipfile.ZipFile(output_dir / f"{name}.zip", "w") as f:
         for ext in ["shp", "dbf", "prj", "shx"]:
-            f.write(output_dir / f"{name}.{ext}")
+            f.write(output_dir / f"{name}.{ext}", arcname=f"{name}.{ext}")
 
 
 def write(coefficient_map: CoefficientMap, output_dir: pathlib.Path, **kwargs):
