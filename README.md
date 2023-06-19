@@ -57,7 +57,7 @@ Examples of valid inputs can be found in `met_src/data/samples/`.
 #### JSON
 
 JSON needs to be structured as follows:
-```json
+```
 {
     "My Sample": {
         "coordinate": {
