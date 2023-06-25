@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "met-src"
 version = "0.1.0"
-description = ""
+description = "Continuous-Domain Constrainment of Lunar Meteorite Samples"
 authors = ["Daniel Bolan <daniel.c.bolan@gmail.com>"]
 license = "MIT"
 readme = "README.md"
