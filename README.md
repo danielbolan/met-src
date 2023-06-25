@@ -3,7 +3,7 @@
 
 Code used to produce the [results presented](https://sservi.directus.app/assets/2483b7e0-a336-443d-8739-3d5f4756e1fb.pdf#page=33) at the [European Lunar Symposium](https://sservi.nasa.gov/els2023/) on June 28, 2023.
 
-If you don't want to run this code, you can download all output files at [dcb.lu/met_src_results](https://dcb.lu/met_src_results).
+If you don't want to run this code, you can download all output files at [dcb.lu/met-src-results](https://dcb.lu/met-src-results).
 
 ## Installation
 
