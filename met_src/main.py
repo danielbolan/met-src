@@ -23,7 +23,7 @@ from met_src.coefficient_map import CoefficientMap
     help="If supplied, results will be produced for the given sample.",
 )
 @click.option(
-    "--output_dir",
+    "--output-dir",
     type=click.Path(file_okay=False, dir_okay=True),
     default="results",
     help="Directory for output files",
@@ -91,7 +91,7 @@ def main(input_path, sample, output_dir, output_format, **kwargs):
     help="If supplied, results will be produced for the given sample.",
 )
 @click.option(
-    "--output_dir",
+    "--output-dir",
     type=click.Path(file_okay=False, dir_okay=True),
     default="results",
     help="Directory for output files",
